@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="game\1. manager">
+      <UniqueIdentifier>{e87d8213-441b-486e-b8d8-25f1c8b17d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\1. manager\1. linker">
+      <UniqueIdentifier>{3f4ae606-2b74-41fe-8870-165386381f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\1. manager\2. stage_mgr">
+      <UniqueIdentifier>{2c4209f8-0c81-43d7-acd3-fb4eb342d47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\1. manager\3. obj_mgr">
+      <UniqueIdentifier>{f2e596c1-df02-434e-9dfd-e4f01eaf4537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\3. object">
+      <UniqueIdentifier>{ee6d9671-e51a-4024-b9bf-e74d5eb26a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\3. object\2. player">
+      <UniqueIdentifier>{82e65d57-56c9-438f-997b-c55a2dd33726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\3. object\1. stage">
+      <UniqueIdentifier>{a4de8beb-f3a8-46ac-9905-11517d9d2145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\3. object\3. bullet">
+      <UniqueIdentifier>{ee66a613-f328-42ac-adaa-77835858aa5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\3. object\4. monster">
+      <UniqueIdentifier>{de92385c-4269-48ba-9158-320e93000161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\4. UI">
+      <UniqueIdentifier>{9ce9b5e7-83bb-42e5-95aa-ca0bc02d882d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\2. scene">
+      <UniqueIdentifier>{ceeabebc-5f5d-4c28-bba4-4e73223fd1d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program_source\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\game_program.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\manager\game_mgr.cpp">
+      <Filter>game\1. manager</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\player.cpp">
+      <Filter>game\3. object\2. player</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\player_info.cpp">
+      <Filter>game\3. object\2. player</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\stage.cpp">
+      <Filter>game\3. object\1. stage</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\manager\stage_mgr.cpp">
+      <Filter>game\1. manager\2. stage_mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\tile_info.cpp">
+      <Filter>game\3. object\1. stage</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\manager\manager_linker.cpp">
+      <Filter>game\1. manager\1. linker</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\manager\obj_mgr.cpp">
+      <Filter>game\1. manager\3. obj_mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\bullet.cpp">
+      <Filter>game\3. object\3. bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\monster.cpp">
+      <Filter>game\3. object\4. monster</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\UI\player_HUD.cpp">
+      <Filter>game\4. UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program_source\include\game_program.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\manager\game_mgr.h">
+      <Filter>game\1. manager</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\player.h">
+      <Filter>game\3. object\2. player</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\player_info.h">
+      <Filter>game\3. object\2. player</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\stage.h">
+      <Filter>game\3. object\1. stage</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\manager\stage_mgr.h">
+      <Filter>game\1. manager\2. stage_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\tile_info.h">
+      <Filter>game\3. object\1. stage</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\global_data.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\manager\manager_linker.h">
+      <Filter>game\1. manager\1. linker</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\manager\obj_mgr.h">
+      <Filter>game\1. manager\3. obj_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\bullet.h">
+      <Filter>game\3. object\3. bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\monster.h">
+      <Filter>game\3. object\4. monster</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\UI\player_HUD.h">
+      <Filter>game\4. UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
