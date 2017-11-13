@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="game_program">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{334aabc8-dc64-4e01-b37b-ae78b8d7fd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{5928b917-efac-4c54-8ff2-73528f0b82bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\1. scene">
+      <UniqueIdentifier>{f7e7d856-62d8-466f-875b-4610d8a8425e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\2. object">
+      <UniqueIdentifier>{388d4230-0603-4530-8796-f12613062fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\2. object\player">
+      <UniqueIdentifier>{3bdd58d0-2a8a-4ce4-971c-b6adf5de24b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\1. scene\sub_scene">
+      <UniqueIdentifier>{7c162d94-1f2a-4e0b-af2b-711cabc9ba97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\1. scene\sub_scene\1. study">
+      <UniqueIdentifier>{46587dc9-1afa-4dae-a9db-5dd45ae9c03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\1. scene\sub_scene\2. hunger">
+      <UniqueIdentifier>{f67b78fb-f8da-4dfb-87c0-1e9b44d1c9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\1. scene\sub_scene\3. society">
+      <UniqueIdentifier>{0f8f41f1-1a38-4c7a-8f62-17c66c032910}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program_source\source\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\game_program.cpp">
+      <Filter>game_program</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\manager\game_mgr.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\manager\scene_mgr.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\scene\title.cpp">
+      <Filter>game\1. scene</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\scene\synopsis.cpp">
+      <Filter>game\1. scene</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\scene\ingame.cpp">
+      <Filter>game\1. scene</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\manager\mgr_linker.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\chara_info.cpp">
+      <Filter>game\2. object</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\chara.cpp">
+      <Filter>game\2. object</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\player_info.cpp">
+      <Filter>game\2. object\player</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\object\player.cpp">
+      <Filter>game\2. object\player</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\manager\obj_mgr.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\scene\sub_scene\hunger_main.cpp">
+      <Filter>game\1. scene\sub_scene\2. hunger</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\scene\sub_scene\society_main.cpp">
+      <Filter>game\1. scene\sub_scene\3. society</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\scene\sub_scene\study_c.cpp">
+      <Filter>game\1. scene\sub_scene\1. study</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\scene\sub_scene\study_main.cpp">
+      <Filter>game\1. scene\sub_scene\1. study</Filter>
+    </ClCompile>
+    <ClCompile Include="program_source\source\scene\sub_scene\study_cpp.cpp">
+      <Filter>game\1. scene\sub_scene\1. study</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program_source\include\game_program.h">
+      <Filter>game_program</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\manager\scene_mgr.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\scene\title.h">
+      <Filter>game\1. scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\scene\synopsis.h">
+      <Filter>game\1. scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\scene\ingame.h">
+      <Filter>game\1. scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\manager\mgr_linker.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\manager\game_mgr.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\chara_info.h">
+      <Filter>game\2. object</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\chara.h">
+      <Filter>game\2. object</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\player.h">
+      <Filter>game\2. object\player</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\object\player_info.h">
+      <Filter>game\2. object\player</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\manager\obj_mgr.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\scene\sub_scene\sub_scene_type.h">
+      <Filter>game\1. scene\sub_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\scene\sub_scene\hunger_main.h">
+      <Filter>game\1. scene\sub_scene\2. hunger</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\scene\sub_scene\society_main.h">
+      <Filter>game\1. scene\sub_scene\3. society</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\scene\sub_scene\study_c.h">
+      <Filter>game\1. scene\sub_scene\1. study</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\scene\sub_scene\study_main.h">
+      <Filter>game\1. scene\sub_scene\1. study</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\global_data.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="program_source\include\scene\sub_scene\study_cpp.h">
+      <Filter>game\1. scene\sub_scene\1. study</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
